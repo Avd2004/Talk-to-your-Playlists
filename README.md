@@ -1,9 +1,13 @@
 # Talk-to-your-Playlists
 
-Makeing a chatbot using your youtube playlists! 
+Making a chatbot using your youtube playlists! 
+
 Required limitations for the plalist:
+
 a.) Must be in english with proper understandable tone.
+
 b.) Should have creator's or auto generated transcript (sub titles) for most videos
+
 c.) Reccomended: total video time should be atleast 3hrs for a decent Corpus formation
 
 Step 1: Extracting Videos from Playlist:
