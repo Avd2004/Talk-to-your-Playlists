@@ -12,7 +12,7 @@ c.) Reccomended: total video time should be atleast 3hrs for a decent Corpus for
 
 Step 1: Extracting Videos from Playlist:
 
-Playlist ID is extracted from playlist link, the ID is after the charecters 'list='. Using Google's YouTube API we traverse through the playlist to get each video's link. The characters after 'v=' in a youtuve video link identifies the video ID. We extract this ID as a substring. We use YouTube Data API to get the video subtitles transcript as a json file.
+Playlist ID is extracted from playlist link, the ID is after the charecters 'list='. Using Google's client API we traverse through the playlist to get each video's link. The characters after 'v=' in a youtuve video link identifies the video ID. We extract this ID as a substring. We use YouTube Data API to get the video subtitles transcript as a json file.
 
 Step 2: Creating Corpus from the json file.
 
